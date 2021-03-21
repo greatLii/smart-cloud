@@ -7,16 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="smart-cloud" />
-        <module name="smart-sso-sever" />
+        <module name="smart-sso-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="smart-cloud-sso" target="1.8" />
+      <module name="smart-sso-sever" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="smart-cloud-sso" options="-parameters" />
+      <module name="smart-sso-server" options="-parameters" />
     </option>
   </component>
 </project>

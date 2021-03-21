@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SsoSeverApplication {
+public class SmartCloudApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SsoSeverApplication.class, args);
+        SpringApplication.run(SmartCloudApplication.class, args);
     }
 
 }
