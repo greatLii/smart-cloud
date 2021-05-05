@@ -84,7 +84,6 @@ public class JWTUtil {
             Algorithm algorithm = Algorithm.HMAC256(TOKEN_SECRET);
             JWTVerifier verifier = JWT.require(algorithm).build();
             verifier.verify(token);
-
             return true;
         } catch (Exception e){
             e.printStackTrace();
